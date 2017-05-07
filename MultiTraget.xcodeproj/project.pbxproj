@@ -37,6 +37,10 @@
 		B160918D1EBF8B2D003D5835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16091551EBF0402003D5835 /* LaunchScreen.storyboard */; };
 		B160918E1EBF8B2D003D5835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16091531EBF0402003D5835 /* Assets.xcassets */; };
 		B160918F1EBF8B2D003D5835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16091501EBF0402003D5835 /* Main.storyboard */; };
+		B16091971EBF9AC2003D5835 /* TargetThreeInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B16091951EBF9AC2003D5835 /* TargetThreeInfo.plist */; };
+		B16091981EBF9AC2003D5835 /* TargetThreeInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B16091951EBF9AC2003D5835 /* TargetThreeInfo.plist */; };
+		B16091991EBF9AC2003D5835 /* TargetTwoInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B16091961EBF9AC2003D5835 /* TargetTwoInfo.plist */; };
+		B160919A1EBF9AC2003D5835 /* TargetTwoInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B16091961EBF9AC2003D5835 /* TargetTwoInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,14 +56,14 @@
 		B16091581EBF0402003D5835 /* TargetOneInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TargetOneInfo.plist; sourceTree = "<group>"; };
 		B160915E1EBF04C2003D5835 /* white-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-new.png"; sourceTree = "<group>"; };
 		B160916E1EBF16E1003D5835 /* Target Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Target Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B160916F1EBF16E1003D5835 /* TargetTwoInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = TargetTwoInfo.plist; path = /Users/Goldenmace/Desktop/MultiTraget/TargetTwoInfo.plist; sourceTree = "<absolute>"; };
 		B16091701EBF187D003D5835 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B16091711EBF187D003D5835 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B16091741EBF2F41003D5835 /* TConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TConfig.h; sourceTree = "<group>"; };
 		B160917C1EBF851E003D5835 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		B160917F1EBF8540003D5835 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		B16091931EBF8B2D003D5835 /* Target Three.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Target Three.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B16091941EBF8B2E003D5835 /* TargetThreeInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = TargetThreeInfo.plist; path = /Users/Goldenmace/Desktop/MultiTraget/TargetThreeInfo.plist; sourceTree = "<absolute>"; };
+		B16091951EBF9AC2003D5835 /* TargetThreeInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TargetThreeInfo.plist; sourceTree = "<group>"; };
+		B16091961EBF9AC2003D5835 /* TargetTwoInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TargetTwoInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +119,8 @@
 				B16091531EBF0402003D5835 /* Assets.xcassets */,
 				B16091551EBF0402003D5835 /* LaunchScreen.storyboard */,
 				B16091581EBF0402003D5835 /* TargetOneInfo.plist */,
-				B160916F1EBF16E1003D5835 /* TargetTwoInfo.plist */,
-				B16091941EBF8B2E003D5835 /* TargetThreeInfo.plist */,
+				B16091951EBF9AC2003D5835 /* TargetThreeInfo.plist */,
+				B16091961EBF9AC2003D5835 /* TargetTwoInfo.plist */,
 				B16091471EBF0402003D5835 /* Supporting Files */,
 			);
 			path = MultiTraget;
@@ -264,9 +268,11 @@
 			files = (
 				B16091801EBF8540003D5835 /* Roboto-Regular.ttf in Resources */,
 				B160917D1EBF851E003D5835 /* OpenSans-Regular.ttf in Resources */,
+				B16091991EBF9AC2003D5835 /* TargetTwoInfo.plist in Resources */,
 				B160915F1EBF04C2003D5835 /* white-new.png in Resources */,
 				B16091571EBF0402003D5835 /* LaunchScreen.storyboard in Resources */,
 				B16091541EBF0402003D5835 /* Assets.xcassets in Resources */,
+				B16091971EBF9AC2003D5835 /* TargetThreeInfo.plist in Resources */,
 				B16091521EBF0402003D5835 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,9 +283,11 @@
 			files = (
 				B16091811EBF8540003D5835 /* Roboto-Regular.ttf in Resources */,
 				B160917E1EBF851E003D5835 /* OpenSans-Regular.ttf in Resources */,
+				B160919A1EBF9AC2003D5835 /* TargetTwoInfo.plist in Resources */,
 				B16091671EBF16E1003D5835 /* white-new.png in Resources */,
 				B16091681EBF16E1003D5835 /* LaunchScreen.storyboard in Resources */,
 				B16091691EBF16E1003D5835 /* Assets.xcassets in Resources */,
+				B16091981EBF9AC2003D5835 /* TargetThreeInfo.plist in Resources */,
 				B160916A1EBF16E1003D5835 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = TargetTwo;
 				DEVELOPMENT_TEAM = 9DJF5593E8;
-				INFOPLIST_FILE = "$(SRCROOT)/TargetTwoInfo.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MultiTraget/TargetTwoInfo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hetul.TargetTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,7 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = TargetTwo;
 				DEVELOPMENT_TEAM = 9DJF5593E8;
-				INFOPLIST_FILE = "$(SRCROOT)/TargetTwoInfo.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MultiTraget/TargetTwoInfo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hetul.TargetTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,7 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = TargetThree;
 				DEVELOPMENT_TEAM = 9DJF5593E8;
-				INFOPLIST_FILE = "$(SRCROOT)/TargetThreeInfo.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MultiTraget/TargetThreeInfo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hetul.TargetThree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,7 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = TargetThree;
 				DEVELOPMENT_TEAM = 9DJF5593E8;
-				INFOPLIST_FILE = "$(SRCROOT)/TargetThreeInfo.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MultiTraget/TargetThreeInfo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hetul.TargetThree;
 				PRODUCT_NAME = "$(TARGET_NAME)";

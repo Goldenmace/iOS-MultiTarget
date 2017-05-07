@@ -55,5 +55,6 @@ extern int NAV_COLOR_RED ;extern int NAV_COLOR_GREEN ;extern int NAV_COLOR_BLUE 
 
 - (IBAction)btnBack_Clicked:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
+
 }
 @end

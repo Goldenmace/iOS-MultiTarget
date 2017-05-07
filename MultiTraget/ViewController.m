@@ -25,12 +25,10 @@ extern int NAV_COLOR_RED ;extern int NAV_COLOR_GREEN ;extern int NAV_COLOR_BLUE 
     
     //timer set and redirect next view
      [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(nextView) userInfo:nil repeats:NO];
-    
-    for (NSString *fontFamilyName in [UIFont familyNames]) {
-        for (NSString *fontName in [UIFont fontNamesForFamilyName:fontFamilyName]) {
-            NSLog(@"Family: %@    Font: %@", fontFamilyName, fontName);
-        }
-    }
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(nextView) userInfo:nil repeats:NO];
 }
 
 //redirect second view
